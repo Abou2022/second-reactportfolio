@@ -34,6 +34,7 @@
     /* left: 0; */
     left: -100%;
     z-index: -3;
+    transition: 0.3s;
   }
   /* to display menu when we click on hamburger icons but need to change class to the navbar.js */
   .nav-menu.active {
