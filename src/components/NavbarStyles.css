@@ -15,6 +15,11 @@
   font-weight: 500;
 }
 
+/* this will hide the hambuger bar */
+.hamburger {
+  display: none;
+}
+
 /* For small screen format */
 @media screen and (max-width: 1040px) {
   .nav-menu {
@@ -26,8 +31,13 @@
     background: rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 0;
-    left: 0;
+    /* left: 0; */
+    left: -100%;
     z-index: -3;
+  }
+  /* to display menu when we click on hamburger icons but need to change class to the navbar.js */
+  .nav-menu.active {
+    left: 0;
   }
 
   .nav-menu li {
@@ -36,5 +46,9 @@
 
   .nav-menu li a {
     font-size: 2rem;
+  }
+  /* Display the icons only if we are the small screen with display initial */
+  .hamburger {
+    display: initial;
   }
 }
