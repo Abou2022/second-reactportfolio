@@ -20,7 +20,7 @@ const Navbar = () => {
       </Link>
       {/* Create a class to style the navbar */}
       {/* add if condition to display menu when you click on burguer icons  */}
-      <ul className={click ? "nav-menu.active" : "nav-menu"}>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/">Home</Link>
         </li>
