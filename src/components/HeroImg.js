@@ -17,14 +17,16 @@ const HeroImg = () => {
       <div className="content">
         <p>Hello, I AM A FREELANCER</p>
         <h1>FULL STACK DEVELOPPER</h1>
+        <div>
+          {/* I will use link because I want to make my btn clickable  */}
+          <Link to="/project" className="btn">
+            PROJECTS
+          </Link>
+          <Link to="/contact" className="btn btn-light">
+            CONTACT
+          </Link>
+        </div>
       </div>
-      {/* I will use link because I want to make my btn clickable  */}
-      <Link to="/project" className="btn">
-        PROJECTS
-      </Link>
-      <Link to="/contact" className="btn btn-light">
-        CONTACT
-      </Link>
     </div>
   );
 };
