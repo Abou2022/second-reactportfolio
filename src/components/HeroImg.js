@@ -3,7 +3,7 @@ import "./HeroImgStyles.css";
 import React from "react";
 
 //to add img I import image
-import MyImg from "../assets/HeroImg1.jpg";
+import MyImg from "../assets/Bak1.jpg";
 
 //import link when I used
 import { Link } from "react-router-dom";
