@@ -3,6 +3,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  /* to fix the nav bar */
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
 }
 .nav-menu {
   display: flex;
