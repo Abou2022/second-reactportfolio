@@ -1,7 +1,13 @@
 import "./FooterStyles.css";
 
 import React from "react";
-import { FaHome, FaMailBulk, FaPhone } from "react-icons/fa";
+import {
+  FaGithub,
+  FaHome,
+  FaLinkedin,
+  FaMailBulk,
+  FaPhone,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -35,7 +41,23 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="right"></div>
+        <div className="right">
+          <h4>About Me</h4>
+          <p>
+            Full-stack software engineer. Fully Work Authorized • No Visa
+            Sponsorship Required • Open to Relocation{" "}
+          </p>
+          <div className="social">
+            <FaGithub
+              size={40}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <FaLinkedin
+              size={40}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
