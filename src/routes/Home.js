@@ -1,9 +1,9 @@
 // short cut "rafce" for export function
 
 import React from "react";
-import Navbar from "../components/Navbar";
-import HeroImg from "../components/HeroImg";
-import Footer from "../components/Footer";
+import Navbar from "../components/navbar/Navbar";
+import HeroImg from "../components/home/HeroImg";
+import Footer from "../components/footer/Footer";
 
 const Home = () => {
   return (

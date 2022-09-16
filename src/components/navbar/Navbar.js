@@ -1,4 +1,4 @@
-import "./NavbarStyles.css";
+import "../navbar/NavbarStyles.css";
 
 //import useState when used
 import React, { useState } from "react";
