@@ -1,16 +1,18 @@
 import "../projects/HeroImgProjectsStyles.css";
 
-import React from "react";
+import React, { Component } from "react";
 
-const HeoImgProjects = () => {
-  return (
-    <div className="hero-img">
-      <div className="heading">
-        <h1>This is a heading</h1>
-        <p>This is a text</p>
+class HeoImgProjects extends Component {
+  render() {
+    return (
+      <div className="hero-img">
+        <div className="heading">
+          <h1>{this.props.heading}</h1>
+          <p>{this.props.text}</p>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default HeoImgProjects;

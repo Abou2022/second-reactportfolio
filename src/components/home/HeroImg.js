@@ -16,7 +16,9 @@ const HeroImg = () => {
         <img className="into-img" src={MyImg} alt="MyImg" />
       </div>
       <div className="content">
-        <p>Hello, I AM A FREELANCER</p>
+        <p>
+          Hello, I AM <strong> Bakary Sylla</strong>{" "}
+        </p>
         <h1>FULL STACK DEVELOPPER</h1>
         <div>
           {/* I will use link because I want to make my btn clickable  */}
