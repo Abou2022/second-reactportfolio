@@ -2,7 +2,7 @@ import React from "react";
 
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
-import HeroImgProjects from "../components/projects/HeroImgProjects";
+import HeroImgProjects from "../components/heroProjects/HeroImgProjects";
 
 const About = () => {
   return (

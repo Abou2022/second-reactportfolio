@@ -1,4 +1,4 @@
-import "../projects/HeroImgProjectsStyles.css";
+import "./HeroImgProjectsStyles.css";
 
 import React, { Component } from "react";
 
