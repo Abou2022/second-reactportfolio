@@ -2,13 +2,13 @@ import React from "react";
 
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/footer/Footer";
-import HeoImgProjects from "../components/projects/HeoImgProjects";
+import HeroImgProjects from "../components/projects/HeroImgProjects";
 
 const Project = () => {
   return (
     <div>
       <Navbar />
-      <HeoImgProjects heading="PROJECTS." text="Some of my recent works" />
+      <HeroImgProjects heading="PROJECTS." text="Some of my recent works" />
       <Footer />
     </div>
   );
