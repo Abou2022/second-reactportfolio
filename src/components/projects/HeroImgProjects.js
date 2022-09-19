@@ -3,7 +3,7 @@ import "../projects/HeroImgProjectsStyles.css";
 import React, { Component } from "react";
 
 //to pass a value instate to const I use class that allowed me to use this. props
-class HeroImgProjects extends Component {
+class HeoImgProjects extends Component {
   render() {
     return (
       <div className="hero-img">
@@ -16,4 +16,4 @@ class HeroImgProjects extends Component {
   }
 }
 
-export default HeroImgProjects;
+export default HeoImgProjects;
