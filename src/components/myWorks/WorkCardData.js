@@ -1,8 +1,8 @@
 import pro1 from "../assets/PetFinder.png";
 import pro2 from "../assets/InMyFridge.png";
 import pro3 from "../assets/DayPlanner.png";
-import pro4 from "../assets/TechBlog.png";
-import pro5 from "../assets/CodeQuiz.png";
+import pro4 from "../assets/CodeQuiz.png";
+import pro5 from "../assets/TechBlog.png";
 
 const ProjectCardData = [
   {
@@ -41,3 +41,5 @@ const ProjectCardData = [
     source: "https://github.com/Abou2022/Tech-Blog",
   },
 ];
+
+export default ProjectCardData;
