@@ -2,7 +2,7 @@ import "../projectCard/MyProjectStyles.css";
 
 import React from "react";
 
-import project1 from "../assets/PetFinder.png";
+// import project1 from "../assets/PetFinder.png";
 import { NavLink } from "react-router-dom";
 
 const MyProjects = (props) => {
