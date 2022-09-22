@@ -48,14 +48,20 @@ const Footer = () => {
             Sponsorship Required • Open to Relocation{" "}
           </p>
           <div className="social">
-            <FaGithub
-              size={40}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={40}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a href="https://github.com/Abou2022" target="_blanc">
+              {" "}
+              <FaGithub
+                size={40}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+
+            <a href="http://www.linkedin.com/in/bakary-sylla" target="_blanc">
+              <FaLinkedin
+                size={40}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
