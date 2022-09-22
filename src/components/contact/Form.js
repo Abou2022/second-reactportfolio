@@ -1,7 +1,7 @@
 import "../contact/FormStyles.css";
 
 import React from "react";
-
+//To do make the input * like mandatory answer
 const Form = () => {
   return (
     <div className="form">
