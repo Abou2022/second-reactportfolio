@@ -2,8 +2,8 @@ import "../about/AboutContentStyles.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import FullStack from "../assets/FullStack.jpg";
-import Desktop from "../assets/Desktop.jpg";
+import FullStack from "../../assets/FullStack.jpg";
+import Desktop from "../../assets/Desktop.jpg";
 
 const AboutContent = () => {
   return (

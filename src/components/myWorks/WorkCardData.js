@@ -1,10 +1,10 @@
 //creat API
 
-import pro1 from "../assets/PetFinder.png";
-import pro2 from "../assets/InMyFridge.png";
-import pro3 from "../assets/DayPlanner.png";
-import pro4 from "../assets/CodeQuiz.png";
-import pro5 from "../assets/TechBlog.png";
+import pro1 from "../../assets/PetFinder.png";
+import pro2 from "../../assets/InMyFridge.png";
+import pro3 from "../../assets/DayPlanner.png";
+import pro4 from "../../assets/CodeQuiz.png";
+import pro5 from "../../assets/TechBlog.png";
 
 const ProjectCardData = [
   {
