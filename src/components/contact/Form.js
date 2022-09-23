@@ -1,20 +1,95 @@
+// import "../contact/FormStyles.css";
+
+// import React from "react";
+// //To do make the input * like mandatory answer
+// const Form = () => {
+//   return (
+//     <div className="form">
+//       <form>
+//         <label>Your name</label>
+//         <input type="text"></input>
+//         <label>Email</label>
+//         <input type="email"></input>
+//         <label>Subject</label>
+//         <input type="text"></input>
+//         <label>Message</label>
+//         <textarea rows="6" placeholder="Type your message here" />
+//         <button className="btn">Submit</button>
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default Form;
+
 import "../contact/FormStyles.css";
 
 import React from "react";
 //To do make the input * like mandatory answer
+
+import { useRef } from "react";
+//to copy from emailJS for react
+import emailjs from "@emailjs/browser";
+
 const Form = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_ueg4ybw",
+        "template_d9mi09m",
+        form.current,
+        "4r_t6hl2yML6GWN5o"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <div className="form">
-      <form>
+      <form ref={form} onSubmit={sendEmail}>
         <label>Your name</label>
-        <input type="text"></input>
+        <input
+          type="text"
+          name="user_name"
+          required
+          placeholder="Required"
+        ></input>
         <label>Email</label>
-        <input type="email"></input>
+        <input
+          type="email"
+          name="user_email"
+          required
+          placeholder="Required"
+        ></input>
         <label>Subject</label>
-        <input type="text"></input>
+        <input
+          type="text"
+          name="subject"
+          required
+          placeholder="Required"
+        ></input>
+
         <label>Message</label>
-        <textarea rows="6" placeholder="Type your message here" />
-        <button className="btn">Submit</button>
+        <textarea
+          rows="6"
+          placeholder="Type your message here (Required)"
+          name="message"
+          required
+        />
+        <button type="submit" className="btn">
+          Submit
+        </button>
       </form>
     </div>
   );
