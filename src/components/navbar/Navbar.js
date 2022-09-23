@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>MyPortfolio.</h1>
+        <h1>Bakary Sylla</h1>
       </Link>
       {/* Create a class to style the navbar */}
       {/* add if condition to display menu when you click on burguer icons  */}
@@ -43,6 +43,9 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link to="">Resume</Link>
         </li>
       </ul>
       {/* Add icons bambuger bar */}
