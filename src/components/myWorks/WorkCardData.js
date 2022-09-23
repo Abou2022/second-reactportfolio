@@ -38,7 +38,7 @@ const ProjectCardData = [
   {
     imgsrc: pro5,
     title: "Tech Blog",
-    text: "CMS-style blog site is a application where developers or anybody can publish their blog posts, edit and/or delete their posts as well. As a developer, you can publish articles, blogs posts and your thoughts and opinions. Techniques used: HTML5, CSS3, JavaScript, Bootstrap, Express-handlebars, MySQL2, Sequelize, dotenv, Node.js, express-session, connect-session-sequelize",
+    text: "CMS-style blog site is a application where developers or anybody can publish their blog posts, edit and/or delete their posts as well. As a developer, you can publish articles, blogs posts and your thoughts and opinions.Techniques used: HTML5, CSS3, JavaScript, Bootstrap, Express-handlebars, MySQL2, Sequelize, dotenv, Node.js, express-session, connect-session-sequelize",
     view: "https://afternoon-river-69859.herokuapp.com/",
     source: "https://github.com/Abou2022/Tech-Blog",
   },
