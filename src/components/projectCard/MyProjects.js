@@ -3,7 +3,7 @@ import "../projectCard/MyProjectStyles.css";
 import React from "react";
 
 // import project1 from "../assets/PetFinder.png";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const MyProjects = (props) => {
   return (
@@ -13,12 +13,18 @@ const MyProjects = (props) => {
       <div className="pro-details">
         <p>{props.text}</p>
         <div className="pro-btns">
-          <NavLink to={props.view} className="btn">
+          <a href={props.view} target="_blank" className="btn">
+            Page
+          </a>
+          <a href={props.source} target="_blank" className="btn">
+            Source
+          </a>
+          {/* <NavLink to={props.view} className="btn">
             Page
           </NavLink>
           <NavLink to={props.source} className="btn">
             Source
-          </NavLink>
+          </NavLink> */}
         </div>
       </div>
     </div>

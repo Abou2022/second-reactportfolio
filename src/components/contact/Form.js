@@ -25,7 +25,6 @@
 import "../contact/FormStyles.css";
 
 import React from "react";
-//To do make the input * like mandatory answer
 
 import { useRef } from "react";
 //to copy from emailJS for react
