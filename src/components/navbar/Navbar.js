@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 // I have to precise what categorie of icons I added "fa"
 import { FaBars, FaTimes } from "react-icons/fa";
 
+import myResume from "../../assets/Bakary_Sylla_Resume.pdf";
+
 const Navbar = () => {
   // I will use useState to change icons hamberger state
   const [click, setClick] = useState(false);
@@ -45,7 +47,10 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          <Link to="">Resume</Link>
+          {/* <Link to="">Resume</Link> */}
+          <a href={myResume} download>
+            Resume
+          </a>
         </li>
       </ul>
       {/* Add icons bambuger bar */}
