@@ -47,7 +47,6 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
-          {/* <Link to="">Resume</Link> */}
           <a href={myResume} download>
             Resume
           </a>
