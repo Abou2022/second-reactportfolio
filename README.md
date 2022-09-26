@@ -1,5 +1,7 @@
 # My React Portfolio
 
+https://myportfolioreactsecond.herokuapp.com/
+
     ## Table of Contents:
 
     1. Descriptions
@@ -41,7 +43,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo](./src/assets/Reactportfolio_demo.gif)
 
 ## Github
 
