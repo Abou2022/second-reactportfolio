@@ -45,6 +45,18 @@ The following animation shows the web application's appearance and functionality
 
 ![portfolio demo](./src/assets/Reactportfolio_demo.gif)
 
+## App Screenshots
+
+![Portfolio1](src/assets/Portfolio1.png)
+
+![Portfolio2](src/assets/Portfolio2.png)
+
+![Portfolio3](src/assets/Portfolio3.png)
+
+![Portfolio4](src/assets/Portfolio4.png)
+
+![Portfolio5](src/assets/Portfolio5.png)
+
 ## Github
 
 https://github.com/Abou2022/my-portfolio
