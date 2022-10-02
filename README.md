@@ -59,11 +59,15 @@ The following animation shows the web application's appearance and functionality
 
 ## Github
 
-https://github.com/Abou2022/my-portfolio
+For any questions feel free to git pull request
 
-## Updated Portfolio
+[Github](https://github.com/Abou2022/my-portfolio)
 
-💁 Need help updating your Portfolio? Check out the [career services milestone resources for online presence](https://mycareerspot.org/onlinepresence).
+## Email
+
+You can email me, if you have any questions
+
+[Email](mailto:syllabakary2002@gmail.com)
 
 ---
 
