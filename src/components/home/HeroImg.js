@@ -8,7 +8,7 @@ import MyImg from "../../assets/Bak1.jpg";
 
 //import link when I used
 import { Link } from "react-router-dom";
-
+//About homepage
 const HeroImg = () => {
   return (
     <div className="hero">
