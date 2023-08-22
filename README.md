@@ -6,8 +6,9 @@ https://myportfolioreactsecond.herokuapp.com/
 
     1. Descriptions
     2. Mock-Up
-    3. Github
-    4.Question
+    3. App Screenshots
+    4. Github
+    5.Question
 
 ## Description
 
