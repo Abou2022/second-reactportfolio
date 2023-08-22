@@ -47,13 +47,13 @@ The following animation shows the web application's appearance and functionality
 
 ## Github
 
-For any questions feel free to git pull request
+You are encouraged to make contributions to this project by submitting a Git pull request. Your suggestions and contributions will be warmly welcomed and appreciated. Thank you for your valuable input and support.
 
 [Github](https://github.com/Abou2022/my-portfolio)
 
 ## Email
 
-You can email me, if you have any questions
+Should you have any questions, please don't hesitate to reach out via email. Your inquiries are welcome, and I'm here to assist you.
 
 [Email](mailto:syllabakary2002@gmail.com)
 
