@@ -1,14 +1,17 @@
 # My React Portfolio
 
-https://myportfolioreactsecond.herokuapp.com/
+## Table of Contents:
 
-    ## Table of Contents:
-
-    1. Descriptions
-    2. Mock-Up
-    3. App Screenshots
-    4. Github
+    1. Project Overview
+    2. Descriptions
+    3. Mock-Up
+    4. App Screenshots
+    5. Github
     5.Question
+
+## Project Overview
+
+`Craft a dynamic single-page portfolio for an experienced web developer using the React framework. The site features a seamless navigation system with distinct sections, including 'About Me,' 'Portfolio,' 'Contact,' and 'Resume.' It offers responsive design, dynamic section highlighting, and real-time form validation, inviting visitors to explore an engaging digital narrative.`
 
 ## Description
 
@@ -26,6 +29,16 @@ The Resume section provides a downloadable resume link accompanied by a list of 
 
 This portfolio harmonizes design, interactivity, and user-centricity, inviting visitors to engage with a modern and insightful digital narrative.
 ```
+
+## Technologies Used
+
+```
+
+```
+
+## Usage
+
+To access the website, simply [visit my website](https://myportfolioreactsecond.herokuapp.com/). Feel free to resize the page or view it on various screens and devices to observe the responsive layout in action.
 
 ## Mock-Up
 
