@@ -11,8 +11,15 @@ const AboutContent = () => {
       <div className="left">
         <h1>Who I am?</h1>
         <p>
-          Full-stack developer with a background in Computer Science,
-          specializing in the MERN stack, I create reponsive secure websites.
+          Possessing a Computer Science background, I am a proficient Full-stack
+          Software Developer skilled in the MERN stack, adept at creating robust
+          web applications. My expertise encompasses both front-end and back-end
+          development, allowing me to craft comprehensive solutions. With a
+          strong desire to make meaningful contributions, I am enthusiastic
+          about lending my technical prowess to impactful projects that drive
+          innovation and excellence. My holistic skill set and commitment to
+          delivering high-quality results position me to thrive in dynamic and
+          challenging environments.
         </p>
         <Link to="/contact">
           <button className="btn">CONTACT</button>
