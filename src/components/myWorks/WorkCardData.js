@@ -1,19 +1,19 @@
 //creat API
 
-import pro1 from "../../assets/PetFinder.png";
+// import pro1 from "../../assets/PetFinder.png";
 import pro2 from "../../assets/InMyFridge.png";
 import pro3 from "../../assets/DayPlanner.png";
 import pro4 from "../../assets/CodeQuiz.png";
 import pro5 from "../../assets/TechBlog.png";
 
 const ProjectCardData = [
-  {
-    imgsrc: pro1,
-    title: "Pet Finder",
-    text: "Team project to help people to report or found their pet. Techniques used: HTML5, CSS3, JavaScript, Bootstrap, Express-handlebars, MySQL2, Sequelize, dotenv, Node.js, cloudinary, bcrypt, express-session, connect-session-sequelize",
-    view: "https://hidden-shore-04969.herokuapp.com/home",
-    source: "https://github.com/Abou2022/Lost-Pet-Project",
-  },
+  // {
+  //   imgsrc: pro1,
+  //   title: "Pet Finder",
+  //   text: "Team project to help people to report or found their pet. Techniques used: HTML5, CSS3, JavaScript, Bootstrap, Express-handlebars, MySQL2, Sequelize, dotenv, Node.js, cloudinary, bcrypt, express-session, connect-session-sequelize",
+  //   view: "https://hidden-shore-04969.herokuapp.com/home",
+  //   source: "https://github.com/Abou2022/Lost-Pet-Project",
+  // },
   {
     imgsrc: pro2,
     title: "In my Fridje",

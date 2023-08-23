@@ -9,7 +9,7 @@ const AboutContent = () => {
   return (
     <div className="about">
       <div className="left">
-        <h1>Let me share more about my professional background.</h1>
+        <h1>Let me share more about me.</h1>
         <p>
           Possessing a Computer Science background, I am a proficient Full-stack
           Software Developer skilled in the MERN stack, adept at creating robust

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 // I have to precise what categorie of icons I added "fa"
 import { FaBars, FaTimes } from "react-icons/fa";
 
-import myResume from "../../assets/Bakary-Sylla.pdf";
+import myResume from "../../assets/Bakary_Sylla.pdf";
 
 const Navbar = () => {
   // I will use useState to change icons hamberger state
