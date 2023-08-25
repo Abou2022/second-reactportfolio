@@ -33,7 +33,13 @@ This portfolio harmonizes design, interactivity, and user-centricity, inviting v
 ## Technologies Used
 
 ```
+HTML: Utilized for structuring the content and layout of webpages to ensure proper organization and accessibility.
 
+CSS: Applied for styling, enhancing the visual appeal, and ensuring responsive design elements to create an engaging user experience.
+
+JavaScript: Implemented to add interactivity and dynamic behavior to web applications, enhancing user engagement and functionality.
+
+React.js: Integrated to build modular and efficient user interfaces, facilitating the development of interactive and scalable web applications.
 ```
 
 ## Usage
