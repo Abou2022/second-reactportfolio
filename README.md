@@ -4,10 +4,12 @@
 
     1. Project Overview
     2. Descriptions
-    3. Mock-Up
-    4. App Screenshots
-    5. Github
-    5.Question
+    3. Technologies Used
+    4. Usage
+    5. Mock-Up
+    6. App Screenshots
+    7. Github
+    8.Question
 
 ## Project Overview
 
@@ -66,15 +68,12 @@ The following animation shows the web application's appearance and functionality
 
 ## Github
 
-You are encouraged to make contributions to this project by submitting a Git pull request. Your suggestions and contributions will be warmly welcomed and appreciated. Thank you for your valuable input and support.
-
-[Github](https://github.com/Abou2022/my-portfolio)
+You are encouraged to make contributions to this project by submitting a Git pull request on my
+[Github](https://github.com/Abou2022/my-portfolio). Your suggestions and contributions will be warmly welcomed and appreciated. Thank you for your valuable input and support.
 
 ## Email
 
-Should you have any questions, please don't hesitate to reach out via email. Your inquiries are welcome, and I'm here to assist you.
-
-[Email](mailto:syllabakary2002@gmail.com)
+Should you have any questions, please don't hesitate to reach out via email my [Email](mailto:syllabakary2002@gmail.com). Your inquiries are welcome, and I'm here to assist you.
 
 ---
 
