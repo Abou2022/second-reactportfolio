@@ -2,9 +2,6 @@ import "../projectCard/MyProjectStyles.css";
 
 import React from "react";
 
-// import project1 from "../assets/PetFinder.png";
-// import { NavLink } from "react-router-dom";
-
 const MyProjects = (props) => {
   return (
     <div className="project-card">
@@ -19,12 +16,6 @@ const MyProjects = (props) => {
           <a href={props.source} target="_blank" className="btn">
             Source
           </a>
-          {/* <NavLink to={props.view} className="btn">
-            Page
-          </NavLink>
-          <NavLink to={props.source} className="btn">
-            Source
-          </NavLink> */}
         </div>
       </div>
     </div>

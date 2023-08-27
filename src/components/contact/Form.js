@@ -54,7 +54,6 @@ const Form = () => {
           required
           placeholder="Required"
         ></input>
-
         <label>Message</label>
         <textarea
           rows="6"
