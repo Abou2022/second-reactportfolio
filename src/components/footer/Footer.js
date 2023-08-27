@@ -36,7 +36,9 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              syllabakary2002@gmail.com
+              <a href="mailto:syllabakary2002@gmail.com">
+                syllabakary2002@gmail.com
+              </a>
             </h4>
           </div>
         </div>
