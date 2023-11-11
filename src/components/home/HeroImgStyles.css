@@ -21,7 +21,6 @@
   top: 0;
   left: 0;
   background-color: #000;
-  /* opacity to avoid black 100% */
   opacity: 0.8;
 }
 
